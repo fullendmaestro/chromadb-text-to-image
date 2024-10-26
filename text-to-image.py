@@ -1,4 +1,7 @@
 # TODO#1: Import necessary libraries
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import torch
 import chromadb
 from PIL import Image
