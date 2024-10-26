@@ -29,6 +29,7 @@ image_paths = [
     "img/image-01.jpg",  # Eiffel Tower
     "img/image-02.jpg",  # Pizza
     "img/image-03.jpeg",  # Polar Bears
+    "img/cat.jpg", # Cat
 ]
 
 # Preprocess images and generate embeddings
